@@ -90,7 +90,7 @@ public class MyServer extends JFrame {
 		  } catch(ClassNotFoundException ce) {
 			  showMessage("Unable to read the message");
 		  }
-	  } while(!message.equals("END")); //The conversation will be ended when user type END
+	  } while(!message.equals("CLIENT - END")); //The conversation will be ended when user type END
   }
   
   //closing streams and socket after chatting done 
